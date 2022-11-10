@@ -16,6 +16,9 @@
                 text-align: center;
                 font-style: oblique;
             }
+            h3 {
+                text-decoration: underline;
+            }
         </style>
         <body>
             <h1>Lists</h1>
@@ -24,10 +27,14 @@
             <p>One way to implement a list into java is to use the ArrayList function which can be used by importing the ArrayList library. A number of different operations can be performed on an ArrayList. These are shown in the table below.</p>
             <p>The examples are based on the following list with the identifier myList: 45, 66, 41, 13, 19, 8</p>
             
-            <h3>List Operation     Description                                       Example                   Output</h3>
-            <p>isEmpty()          Test for empty list                               myList.isEmpty()          False</p>
-            <p>add()              Appends the specified item to the end of a list   myList.add(5)             5</p>
-            <p>remove()           Removes the element</p>
+            <h3>List Operation     Description                                                                                               Example                   Output</h3>
+            <p>isEmpty()          Test for empty list                                                                                       myList.isEmpty()          False</p>
+            <p>add()              Appends the specified item to the end of a list                                                           myList.add(5)             5</p>
+            <p>remove()           Removes the element at the specified position of the list. Shifts any subsequent elements to the left     myList.remove(5)          n/a</p>
+            <p>size()             Returns the number of elements in the list                                                                myList.size()             The length of the list</p>
+            <p>get()              Gets the element of a specified position in the list                                                      myList.get(5)             Whatever is at the specified index</p>
+            <p>clear()            Removes all the items from the list                                                                       myList.clear()            n/a no more elements</p>
+            <p>contains()         Returns true if this list contains the specified element                                                  myList.contains(5)        True if the list contains 5</p>
 
         </body>
         
